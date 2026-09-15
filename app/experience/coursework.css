@@ -1,0 +1,80 @@
+.coursework {
+  margin-top: 32px;
+}
+
+.coursework h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.coursework-note {
+  margin: 4px 0 18px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.coursework-table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
+.coursework-table tr {
+  border-color: var(--line);
+}
+
+.coursework-table tbody tr:hover {
+  background: var(--soft);
+}
+
+.coursework-table th,
+.coursework-table td {
+  padding: 12px 8px;
+  white-space: normal;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.coursework-table th {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.coursework-table .coursework-code {
+  width: 7rem;
+  padding-left: 0;
+}
+
+.coursework-table td.coursework-code {
+  font-size: 0.8125rem;
+  font-weight: 550;
+}
+
+.coursework-table .coursework-grade {
+  width: 3.5rem;
+  padding-right: 0;
+  text-align: right;
+}
+
+.coursework-table td.coursework-grade {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.coursework-name,
+.coursework-term {
+  display: block;
+}
+
+.coursework-term {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 480px) {
+  .coursework-table .coursework-code {
+    width: 5.5rem;
+  }
+}
